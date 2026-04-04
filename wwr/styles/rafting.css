@@ -155,3 +155,102 @@ footer {
     height: auto;
     display: block;
 }
+
+label,
+input,
+button,
+select,
+textarea {
+    font-family: Roboto, Arial, sans-serif;
+}
+
+.address {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.address-title {
+    font-size: 2.5rem;
+    color: var(--accent1-color);
+}
+
+.address p {
+    margin: 0;
+}
+
+.embededmap-contact {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px;
+}
+
+/* Form Styling */
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 350px;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 1fr 3fr;
+    margin: 0.5rem 0;
+    gap: 10px;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+}
+
+input,
+textarea {
+    padding: 8px;
+    border: 1px solid var(--accent1-color);
+    border-radius: 4px;
+}
+
+input[type="checkbox"] {
+    vertical-align: bottom;
+}
+
+/* 
+textarea {
+    height: 80px;
+} */
+
+button {
+    padding: 10px;
+    background-color: navy;
+    color: var(--accent2-color);
+    border: 1px solid var(--text-color);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.service {
+    margin: 30px;
+    text-align: center;
+}
+
+.service-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    background-color: transparent;
+    color: var(--text-color);
+}
+
+.employee-profiles {
+    display: flex;
+    justify-content: space-around;
+}
+
+.employee {
+    text-align: center;
+}
